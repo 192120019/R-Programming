@@ -1,0 +1,10 @@
+rice_price_per_kg <- 40.75
+sugar_price_per_kg <- 30
+rice_quantity <- 2
+sugar_quantity <- 5
+total_amount_rice <- rice_price_per_kg * rice_quantity
+total_amount_sugar <- sugar_price_per_kg * sugar_quantity
+total_amount <- total_amount_rice + total_amount_sugar
+cat("Total amount for 2kg of rice:", total_amount_rice, "Rs.\n")
+cat("Total amount for 5kg of sugar:", total_amount_sugar, "Rs.\n")
+cat("Overall total amount:", total_amount, "Rs.\n")
